@@ -54,7 +54,7 @@ function auto_ads_settings_page() {
     <?php do_settings_sections( 'auto_ads-settings-group' ); ?>
     <table class="form-table">
         <tr valign="top">
-        <th scope="row">Adsense Auto Ads</th>
+        <th scope="row">Adsense Publisher ID</th>
         <td><input type="text" style="background: black; color: orange; width: 20%;" name="auto_ads_code" value="<?php echo esc_attr( get_option('auto_ads_code') ); ?>"/>
         </tr>
          
